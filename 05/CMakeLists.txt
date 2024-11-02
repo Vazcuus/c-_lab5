@@ -48,7 +48,7 @@ set_target_properties(physics lib PROPERTIES
     CXX_STANDARD_REQUIRED ON
 )
 target_include_directories(physics
-    PRIVATE "${CMAKE_BINARY_DIR}/05"
+    PRIVATE "${CMAKE_CURRENT_BINARY_DIR}"
 )
 target_link_libraries(physics PRIVATE sfml-graphics)
 
