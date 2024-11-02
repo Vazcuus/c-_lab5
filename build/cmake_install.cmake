@@ -1,4 +1,4 @@
-# Install script for directory: Y:/Programming/c-_lab5/05
+# Install script for directory: Y:/Programming/c-_lab5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

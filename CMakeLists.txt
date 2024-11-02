@@ -37,18 +37,18 @@ if (MSVC)
 endif ()
 
 add_executable(physics
-        main.cpp World.cpp Ball.cpp Physics.cpp Color.cpp Painter.cpp
-        black_box/Application.cpp black_box/View.cpp black_box/PainterImpl.cpp
-        Dust.cpp
+        05/main.cpp 05/World.cpp 05/Ball.cpp 05/Physics.cpp 05/Color.cpp 05/Painter.cpp
+        05/black_box/Application.cpp 05/black_box/View.cpp 05/black_box/PainterImpl.cpp
+        05/Dust.cpp
         )
 
-add_library(lib lib.cpp)
+add_library(lib 05/lib.cpp)
 set_target_properties(physics lib PROPERTIES
     CXX_STANDARD 17
     CXX_STANDARD_REQUIRED ON
 )
 target_include_directories(physics
-    PRIVATE "${CMAKE_CURRENT_BINARY_DIR}"
+    PRIVATE "${CMAKE_BINARY_DIR}"
 )
 target_link_libraries(physics PRIVATE sfml-graphics)
 

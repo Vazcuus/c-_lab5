@@ -1,68 +1,68 @@
 [
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\main.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\main.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\05\\main.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\main.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\main.cpp",
-  "output": "CMakeFiles\\physics.dir\\main.cpp.obj"
+  "output": "CMakeFiles\\physics.dir\\05\\main.cpp.obj"
 },
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\World.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\World.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\05\\World.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\World.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\World.cpp",
-  "output": "CMakeFiles\\physics.dir\\World.cpp.obj"
+  "output": "CMakeFiles\\physics.dir\\05\\World.cpp.obj"
 },
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Ball.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\Ball.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\05\\Ball.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\Ball.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\Ball.cpp",
-  "output": "CMakeFiles\\physics.dir\\Ball.cpp.obj"
+  "output": "CMakeFiles\\physics.dir\\05\\Ball.cpp.obj"
 },
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Physics.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\Physics.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\05\\Physics.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\Physics.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\Physics.cpp",
-  "output": "CMakeFiles\\physics.dir\\Physics.cpp.obj"
+  "output": "CMakeFiles\\physics.dir\\05\\Physics.cpp.obj"
 },
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Color.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\Color.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\05\\Color.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\Color.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\Color.cpp",
-  "output": "CMakeFiles\\physics.dir\\Color.cpp.obj"
+  "output": "CMakeFiles\\physics.dir\\05\\Color.cpp.obj"
 },
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Painter.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\Painter.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\05\\Painter.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\Painter.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\Painter.cpp",
-  "output": "CMakeFiles\\physics.dir\\Painter.cpp.obj"
+  "output": "CMakeFiles\\physics.dir\\05\\Painter.cpp.obj"
 },
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\black_box\\Application.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\black_box\\Application.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\05\\black_box\\Application.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\black_box\\Application.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\black_box\\Application.cpp",
-  "output": "CMakeFiles\\physics.dir\\black_box\\Application.cpp.obj"
+  "output": "CMakeFiles\\physics.dir\\05\\black_box\\Application.cpp.obj"
 },
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\black_box\\View.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\black_box\\View.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\05\\black_box\\View.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\black_box\\View.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\black_box\\View.cpp",
-  "output": "CMakeFiles\\physics.dir\\black_box\\View.cpp.obj"
+  "output": "CMakeFiles\\physics.dir\\05\\black_box\\View.cpp.obj"
 },
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\black_box\\PainterImpl.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\black_box\\PainterImpl.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\05\\black_box\\PainterImpl.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\black_box\\PainterImpl.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\black_box\\PainterImpl.cpp",
-  "output": "CMakeFiles\\physics.dir\\black_box\\PainterImpl.cpp.obj"
+  "output": "CMakeFiles\\physics.dir\\05\\black_box\\PainterImpl.cpp.obj"
 },
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Dust.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\Dust.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/c-_lab5/build -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\05\\Dust.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\Dust.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\Dust.cpp",
-  "output": "CMakeFiles\\physics.dir\\Dust.cpp.obj"
+  "output": "CMakeFiles\\physics.dir\\05\\Dust.cpp.obj"
 },
 {
   "directory": "Y:/Programming/c-_lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\lib.dir\\lib.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\lib.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\lib.dir\\05\\lib.cpp.obj -c Y:\\Programming\\c-_lab5\\05\\lib.cpp",
   "file": "Y:\\Programming\\c-_lab5\\05\\lib.cpp",
-  "output": "CMakeFiles\\lib.dir\\lib.cpp.obj"
+  "output": "CMakeFiles\\lib.dir\\05\\lib.cpp.obj"
 }
 ]

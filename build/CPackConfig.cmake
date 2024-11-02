@@ -10,7 +10,7 @@
 # usually begin with CPACK_<GENNAME>_xxxx.
 
 
-set(CPACK_BUILD_SOURCE_DIRS "Y:/Programming/c-_lab5/05;Y:/Programming/c-_lab5/build")
+set(CPACK_BUILD_SOURCE_DIRS "Y:/Programming/c-_lab5;Y:/Programming/c-_lab5/build")
 set(CPACK_CMAKE_GENERATOR "Ninja")
 set(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
 set(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
