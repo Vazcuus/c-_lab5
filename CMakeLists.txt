@@ -60,7 +60,7 @@ target_compile_options(physics PRIVATE
         $<$<NOT:$<CXX_COMPILER_ID:MSVC>>:-Wall -Wextra -Wpedantic>
         )
 
-install(TARGETS physics RUNTIME DESTINATION bin)
+install(TARGETS physics RUNTIME DESTINATION ../bin)
 
 if (APPLE)
     set(CPACK_GENERATOR ZIP)

@@ -72,7 +72,7 @@ jobs:
         with:
           upload_url: ${{ needs.create_release.outputs.upload_url}}
           asset_name: physics-0.0.${{ github.run_number }}-Darwin.zip
-          asset_path: ./physics-0.0.${{ github.run_number }}-Darwin.zip
+          asset_path: ../physics-0.0.${{ github.run_number }}-Darwin.zip
           asset_content_type: application/zip
 
   
