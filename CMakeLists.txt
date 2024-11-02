@@ -20,7 +20,7 @@ else ()
     FetchContent_Declare(SFML
             GIT_REPOSITORY https://github.com/SFML/SFML.git
             GIT_TAG 2.6.x)
-    set(SFML_BUILD_AUDIO OFF CACHE BOOL "" FORCE)
+    set(SFML_BUILD_AUDIO 1OFF CACHE BOOL "" FORCE)
     set(SFML_BUILD_NETWORK OFF CACHE BOOL "" FORCE)
     set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
     # Обход потенциальных проблем при сборке sfml-graphics
