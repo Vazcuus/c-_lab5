@@ -52,70 +52,70 @@ build cmake_object_order_depends_target_physics: phony || cmake_object_order_dep
 build CMakeFiles/physics.dir/main.cpp.obj: CXX_COMPILER__physics_unscanned_Debug Y$:/Programming/c-_lab5/05/main.cpp || cmake_object_order_depends_target_physics
   DEP_FILE = CMakeFiles\physics.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
-  INCLUDES = -IY:/Programming/c-_lab5/build
+  INCLUDES = -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
 
 build CMakeFiles/physics.dir/World.cpp.obj: CXX_COMPILER__physics_unscanned_Debug Y$:/Programming/c-_lab5/05/World.cpp || cmake_object_order_depends_target_physics
   DEP_FILE = CMakeFiles\physics.dir\World.cpp.obj.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
-  INCLUDES = -IY:/Programming/c-_lab5/build
+  INCLUDES = -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
 
 build CMakeFiles/physics.dir/Ball.cpp.obj: CXX_COMPILER__physics_unscanned_Debug Y$:/Programming/c-_lab5/05/Ball.cpp || cmake_object_order_depends_target_physics
   DEP_FILE = CMakeFiles\physics.dir\Ball.cpp.obj.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
-  INCLUDES = -IY:/Programming/c-_lab5/build
+  INCLUDES = -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
 
 build CMakeFiles/physics.dir/Physics.cpp.obj: CXX_COMPILER__physics_unscanned_Debug Y$:/Programming/c-_lab5/05/Physics.cpp || cmake_object_order_depends_target_physics
   DEP_FILE = CMakeFiles\physics.dir\Physics.cpp.obj.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
-  INCLUDES = -IY:/Programming/c-_lab5/build
+  INCLUDES = -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
 
 build CMakeFiles/physics.dir/Color.cpp.obj: CXX_COMPILER__physics_unscanned_Debug Y$:/Programming/c-_lab5/05/Color.cpp || cmake_object_order_depends_target_physics
   DEP_FILE = CMakeFiles\physics.dir\Color.cpp.obj.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
-  INCLUDES = -IY:/Programming/c-_lab5/build
+  INCLUDES = -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
 
 build CMakeFiles/physics.dir/Painter.cpp.obj: CXX_COMPILER__physics_unscanned_Debug Y$:/Programming/c-_lab5/05/Painter.cpp || cmake_object_order_depends_target_physics
   DEP_FILE = CMakeFiles\physics.dir\Painter.cpp.obj.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
-  INCLUDES = -IY:/Programming/c-_lab5/build
+  INCLUDES = -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
 
 build CMakeFiles/physics.dir/black_box/Application.cpp.obj: CXX_COMPILER__physics_unscanned_Debug Y$:/Programming/c-_lab5/05/black_box/Application.cpp || cmake_object_order_depends_target_physics
   DEP_FILE = CMakeFiles\physics.dir\black_box\Application.cpp.obj.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
-  INCLUDES = -IY:/Programming/c-_lab5/build
+  INCLUDES = -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir\black_box
 
 build CMakeFiles/physics.dir/black_box/View.cpp.obj: CXX_COMPILER__physics_unscanned_Debug Y$:/Programming/c-_lab5/05/black_box/View.cpp || cmake_object_order_depends_target_physics
   DEP_FILE = CMakeFiles\physics.dir\black_box\View.cpp.obj.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
-  INCLUDES = -IY:/Programming/c-_lab5/build
+  INCLUDES = -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir\black_box
 
 build CMakeFiles/physics.dir/black_box/PainterImpl.cpp.obj: CXX_COMPILER__physics_unscanned_Debug Y$:/Programming/c-_lab5/05/black_box/PainterImpl.cpp || cmake_object_order_depends_target_physics
   DEP_FILE = CMakeFiles\physics.dir\black_box\PainterImpl.cpp.obj.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
-  INCLUDES = -IY:/Programming/c-_lab5/build
+  INCLUDES = -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir\black_box
 
 build CMakeFiles/physics.dir/Dust.cpp.obj: CXX_COMPILER__physics_unscanned_Debug Y$:/Programming/c-_lab5/05/Dust.cpp || cmake_object_order_depends_target_physics
   DEP_FILE = CMakeFiles\physics.dir\Dust.cpp.obj.d
   FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
-  INCLUDES = -IY:/Programming/c-_lab5/build
+  INCLUDES = -IY:/Programming/c-_lab5/05/../Y:/Programming/c-_lab5/build
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
 
