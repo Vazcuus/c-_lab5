@@ -1,5 +1,7 @@
 #pragma once
-
+#include <fstream>
+#include <string>
+#include <iostream>
 class Color {
   public:
     Color();
@@ -7,6 +9,11 @@ class Color {
     double red() const;
     double green() const;
     double blue() const;
+    friend std::istream& operator>>(std::istream& stream, Color& color) 
+    { 
+        stream >> color.r >> color.g >> color.b;
+        return stream;
+    }
 
   private:
     double r{};

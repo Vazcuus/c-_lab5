@@ -1,7 +1,8 @@
 #include "World.h"
 #include "Painter.h"
 #include <fstream>
-
+#include <string>
+#include <iostream>
 // Длительность одного тика симуляции.
 // Подробнее см. update()
 // Изменять не следует
@@ -23,7 +24,7 @@ World::World(const std::string& worldFilePath) {
      * многократно - хорошо бы вынести это в функцию
      * и не дублировать код...
      */
-    stream >> topLeft.x >> topLeft.y >> bottomRight.x >> bottomRight.y;
+    stream >> topLeft >> bottomRight;
     physics.setWorldBox(topLeft, bottomRight);
 
     /**
@@ -32,15 +33,10 @@ World::World(const std::string& worldFilePath) {
      * как и (red, green, blue). Опять же, можно упростить
      * этот код, научившись читать сразу Point, Color...
      */
-    double x;
-    double y;
-    double vx;
-    double vy;
+    Point center;
+    Point velocity;
     double radius;
-
-    double red;
-    double green;
-    double blue;
+    Color color;
 
     bool isCollidable;
 
@@ -49,9 +45,9 @@ World::World(const std::string& worldFilePath) {
     while (stream.peek(), stream.good()) {
         // Читаем координаты центра шара (x, y) и вектор
         // его скорости (vx, vy)
-        stream >> x >> y >> vx >> vy;
+        stream >> center >> velocity;
         // Читаем три составляющие цвета шара
-        stream >> red >> green >> blue;
+        stream >> color;
         // Читаем радиус шара
         stream >> radius;
         // Читаем свойство шара isCollidable, которое
@@ -64,7 +60,8 @@ World::World(const std::string& worldFilePath) {
         // Здесь не хватает самого главного - создания
         // объекта класса Ball со свойствами, прочитанными
         // выше, и его помещения в контейнер balls
-
+        Ball ball(center, velocity, color, radius, isCollidable);
+        balls.push_back(ball);
         // После того как мы каким-то образом
         // сконструируем объект Ball ball;
         // добавьте его в конец контейнера вызовом
@@ -81,6 +78,11 @@ void World::show(Painter& painter) const {
     // Вызываем отрисовку каждого шара
     for (const Ball& ball : balls) {
         ball.draw(painter);
+    }
+
+    for (const Dust& dust : dusts) {
+        if (dust.isAlive())
+            dust.draw(painter);
     }
 }
 
@@ -100,11 +102,14 @@ void World::update(double time) {
      * длительность тика, сохраняем остаток в restTime
      * и обрабатываем на следующей итерации.
      */
-
+    
     // учитываем остаток времени, который мы не "доработали" при прошлом update
     time += restTime;
     const auto ticks = static_cast<size_t>(std::floor(time / timePerTick));
     restTime = time - double(ticks) * timePerTick;
-
-    physics.update(balls, ticks);
+    for (Dust& dust : dusts)
+    {
+        dust.update();
+    }
+    physics.update(balls, dusts, ticks);
 }

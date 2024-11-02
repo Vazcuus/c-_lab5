@@ -63,3 +63,28 @@ double Ball::getRadius() const {
 double Ball::getMass() const {
     return M_PI*pow(radius,3)*4./3.;
 }
+/**
+ * @brief Возвращает true или flase.
+ * @details Информирует о том подвергается ли объект столкновениям с другими объектами.
+ */
+bool Ball::getIsCollidable() const
+{
+    return isCollidable;
+}
+
+/**
+ * @brief Конструктор объекта Ball
+ * @param _center координаты центра шара
+ * @param _velocity вектор скорости шара
+ * @param _color цвет шара
+ * @param _radius радиус шара 
+ */
+Ball::Ball(Point _center, Velocity _velocity, Color _color, double _radius, bool _isCollidable)
+{
+    center = _center;
+    velocity = _velocity;
+    color = _color;
+    radius = _radius;
+    isCollidable = _isCollidable;
+
+}

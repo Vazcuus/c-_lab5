@@ -1,3 +1,10 @@
 Y:/Programming/c-_lab5/build/CMakeFiles/physics.dir
+Y:/Programming/c-_lab5/build/CMakeFiles/lib.dir
+Y:/Programming/c-_lab5/build/CMakeFiles/package.dir
+Y:/Programming/c-_lab5/build/CMakeFiles/package_source.dir
 Y:/Programming/c-_lab5/build/CMakeFiles/edit_cache.dir
 Y:/Programming/c-_lab5/build/CMakeFiles/rebuild_cache.dir
+Y:/Programming/c-_lab5/build/CMakeFiles/list_install_components.dir
+Y:/Programming/c-_lab5/build/CMakeFiles/install.dir
+Y:/Programming/c-_lab5/build/CMakeFiles/install/local.dir
+Y:/Programming/c-_lab5/build/CMakeFiles/install/strip.dir

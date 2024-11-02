@@ -1,7 +1,13 @@
-cmake_minimum_required(VERSION 3.7.2)
+cmake_minimum_required(VERSION 3.20)
+set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
+set(PROJECT_VESRION 0.0.${PATCH_VERSION})
+
 project(physics)
 
-set(CMAKE_CXX_STANDARD 17)
+find_package(Boost COMPONENTS unit_test_framework REQUIRED)
+
+configure_file(version.h.in version.h)
+
 
 # Пытаемся найти предустановленный SFML
 find_package(SFML COMPONENTS graphics)
@@ -33,10 +39,41 @@ endif ()
 
 add_executable(physics
         main.cpp World.cpp Ball.cpp Physics.cpp Color.cpp Painter.cpp
-        black_box/Application.cpp black_box/View.cpp black_box/PainterImpl.cpp)
+        black_box/Application.cpp black_box/View.cpp black_box/PainterImpl.cpp
+        Dust.cpp
+        )
+
+add_library(lib lib.cpp)
+set_target_properties(physics lib PROPERTIES
+    CXX_STANDARD 17
+    CXX_STANDARD_REQUIRED ON
+)
+target_include_directories(physics
+    PRIVATE "${CMAKE_BINARY_DIR}"
+)
 target_link_libraries(physics PRIVATE sfml-graphics)
 
+target_link_libraries(physics PRIVATE
+    lib
+)
 target_compile_options(physics PRIVATE
         $<$<CXX_COMPILER_ID:MSVC>:/W4>
         $<$<NOT:$<CXX_COMPILER_ID:MSVC>>:-Wall -Wextra -Wpedantic>
         )
+
+install(TARGETS physics RUNTIME DESTINATION bin)
+
+if (APPLE)
+    set(CPACK_GENERATOR ZIP)
+else()
+    set(CPACK_GENERATOR DEB)
+endif()
+
+
+
+set(CPACK_PACKAGE_VERSION_MAJOR "${PROJECT_VERSION_MAJOR}")
+set(CPACK_PACKAGE_VERSION_MINOR "${PROJECT_VERSION_MINOR}")
+set(CPACK_PACKAGE_VERSION_PATCH "${PROJECT_VERSION_PATCH}")
+
+set(CPACK_PACKAGE_CONTACT example@example.com)
+include(CPack)

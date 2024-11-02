@@ -11,6 +11,7 @@ class World {
     void show(Painter& painter) const;
     void update(double time);
 
+
   private:
     // Границы мира заданы углами прямоугольника
     Point topLeft;
@@ -19,7 +20,9 @@ class World {
     Physics physics;
     // Контейнер с шарами
     std::vector<Ball> balls;
+    std::vector<Dust> dusts;
     // Длина отрезка времени, который не был
     // учтен при прошлой симуляции. См. реализацию update
-    double restTime = 0.;
+    double restTime = 0.;  
+  
 };

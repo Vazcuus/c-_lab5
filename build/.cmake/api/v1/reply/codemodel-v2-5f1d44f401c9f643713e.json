@@ -6,16 +6,18 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8d82d14f49f9a536a0d0.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.2"
+						"string" : "3.20"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +32,8 @@
 					"name" : "physics",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +41,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lib-Debug-e0227a3850c5dfeb6448.json",
+					"name" : "lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "physics::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-physics-Debug-c98d08405a9ae9f3796c.json",
+					"jsonFile" : "target-physics-Debug-71adc8d5d2290b5d5890.json",
 					"name" : "physics",
 					"projectIndex" : 0
 				}

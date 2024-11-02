@@ -1,12 +1,20 @@
 #pragma once
 #include <cmath>
-
+#include <fstream>
+#include <string>
+#include <iostream>
 class Point {
   public:
     Point() = default;
     inline Point(double x, double y) : x{x}, y{y} {};
     double x{};
     double y{};
+
+    friend std::istream& operator>>(std::istream& stream, Point& point) 
+    { 
+        stream >> point.x >> point.y;
+        return stream;
+    } 
 };
 
 inline Point operator-(const Point& lhs, const Point& rhs) {
