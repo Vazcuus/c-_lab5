@@ -8,7 +8,6 @@ find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
 configure_file(version.h.in version.h)
 
-
 # Пытаемся найти предустановленный SFML
 find_package(SFML COMPONENTS graphics)
 
