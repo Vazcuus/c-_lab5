@@ -49,7 +49,7 @@ jobs:
           asset_name: physics-0.0.${{ github.run_number }}-Linux.deb
           asset_path: ./physics-0.0.${{ github.run_number }}-Linux.deb
           asset_content_type: application/vnd.debian.binary-package
-
+#asdasd
   release_assets_macos:
     name: Release assets
     needs: create_release
